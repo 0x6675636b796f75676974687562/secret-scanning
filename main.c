@@ -36,8 +36,9 @@ static const char password2[] = {
     [7] = 'd',
 };
 
-void main() {
+int main() {
     printf("(A) %s\n", password0);
     printf("(B) %s\n", password1);
     printf("(C) %s\n", password2);
+    return 0;
 }
